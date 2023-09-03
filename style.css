@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff;
+    /* /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+}
+
+.pad{
+    padding: 0 20rem;
+}
+
+header {
+    text-align: center;
+    background-color: #222; /* Dark gray banner */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: darkblue;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #111; /* Darker gray navigation */
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project {
+    background-color: #333; /* Slightly lighter black */
+    border: 1px solid #444;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111; /* Darker gray footer */
+    color: #fff;
+}
